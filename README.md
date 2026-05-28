@@ -1,7 +1,7 @@
-````md
 # Wanderlust – Vacation Rental & Booking Platform
 
 ## Overview
+
 Wanderlust is a full-stack vacation rental and booking platform that enables users to explore property listings, view accommodation details, create bookings, and manage reservations through a secure and responsive web interface.
 
 The platform focuses on delivering a seamless booking experience with secure authentication, dynamic listing management, and scalable backend architecture.
@@ -9,55 +9,63 @@ The platform focuses on delivering a seamless booking experience with secure aut
 ---
 
 ## Features
-- User Authentication & Authorization
-- Property Listing Management
-- Booking & Reservation System
-- Add/Edit/Delete Listings
-- Review & Rating System
-- Responsive UI Design
-- Cloud-Based Image Storage
-- Session-Based Authentication
-- RESTful Routing Architecture
+
+* User Authentication & Authorization
+* Property Listing Management
+* Booking & Reservation System
+* Add/Edit/Delete Listings
+* Review & Rating System
+* Responsive UI Design
+* Cloud-Based Image Storage
+* Session-Based Authentication
+* RESTful Routing Architecture
 
 ---
 
 ## Tech Stack
 
 ### Frontend
-- HTML
-- CSS
-- Bootstrap
-- JavaScript
-- EJS
+
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* EJS
 
 ### Backend
-- NodeJS
-- ExpressJS
+
+* NodeJS
+* ExpressJS
 
 ### Database
-- MongoDB
-- Mongoose
+
+* MongoDB
+* Mongoose
 
 ### Authentication & Security
-- PassportJS
-- Express Session
-- Cookies
-- Middleware Authorization
+
+* PassportJS
+* Express Session
+* Cookies
+* Middleware Authorization
 
 ---
 
 ## Project Architecture
 
+```text
 User → Frontend (EJS Templates) → ExpressJS Server → MongoDB Database
+```
 
 ---
 
 ## Installation
 
 ### Clone Repository
+
 ```bash
 git clone https://github.com/cherry2695/Wanderlust.git
-````
+```
 
 ### Navigate to Project Folder
 
@@ -119,6 +127,3 @@ SECRET=your_secret_key
 ## Author
 
 Chanikya Amancha
-
-```
-```
